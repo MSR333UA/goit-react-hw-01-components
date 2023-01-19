@@ -1,0 +1,31 @@
+.transactionHistory {
+    width: 900px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .thead {
+    color: white;
+    text-align: center;
+    height: 40px;
+    background: #1e90ff;
+    text-transform: uppercase;
+  }
+  .tbody {
+    text-align: center;
+    color: gray;
+  }
+  .tr {
+    height: 40px;
+  }
+  tbody tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f0f8ff;
+  }
+  
+  tbody tr:hover {
+    cursor: pointer;
+    background-color: #d3e9fd;
+  }
