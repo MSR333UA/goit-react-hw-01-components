@@ -1,17 +1,14 @@
-import Profile from "components/profile/Profile";
-import user from './data/user'
+import Profile from 'components/profile/Profile';
+import Statistics from 'components/statistics/Statistics';
+import FriendList from 'components/friendList/FriendList';
+import TransactionHistory from 'components/transactions/TransactionHistory';
 
-import Statistics from "components/statistics/Statistics";
-import data from './data/data'
+import user from './data/user';
+import data from './data/data';
+import friends from './data/friends';
+import transactions from './data/transactions';
 
-import FriendList from "components/friendList/FriendList";
-import friends from './data/friends'
-
-import TransactionHistory from "components/transactions/TransactionHistory";
-import transactions from './data/transactions'
-
-
-export default function App () {
+export default function App() {
   return (
     <div>
       <Profile
@@ -21,10 +18,9 @@ export default function App () {
         avatar={user.avatar}
         stats={user.stats}
       />
-     <Statistics title="Upload status" stats={data}/>
-     <FriendList friends={friends}/>
-     <TransactionHistory items={transactions}/>
-
+      <Statistics title="Upload status" stats={data} />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </div>
   );
-};
+}
