@@ -1,0 +1,33 @@
+.transaction {
+  width: 600px;
+  margin: 100px auto;
+  text-align: center;
+
+  box-shadow: 0px 8px 13px 3px #3fd624, 5px 5px 15px 5px rgb(0 0 0 / 0%);
+}
+
+.transaction__item {
+  text-transform: uppercase;
+  background-color: aquamarine;
+  color: gray;
+
+  border: 2px solid #00d862;
+  border-radius: 5px;
+  padding: 15px;
+  width: 100px;
+}
+
+.transaction__list {
+  background-color: #d8f1e3;
+  color: rgb(48, 48, 38);
+}
+
+.transaction__list:nth-child(odd) {
+  background-color: antiquewhite;
+}
+
+.list {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid rgb(20, 225, 20);
+}
