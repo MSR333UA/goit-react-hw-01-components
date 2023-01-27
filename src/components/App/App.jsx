@@ -1,8 +1,8 @@
 // import './App.css'
 
-import { Profile } from 'components/Profile/Profile';
-import { Statistics } from 'components/Statistics/Statistics.jsx';
-import { FriendList } from 'components/FriendList/FriendList.jsx';
+import { Profile } from 'components/Profiles/Profile';
+import { Statistics } from 'components/Statistic/Statistics';
+import { FriendList } from 'components/FriendsList/FriendList';
 import { TransactionHistory } from 'components/TransactionHistory/TransactionHistory.jsx';
 
 import data from 'data/data';
